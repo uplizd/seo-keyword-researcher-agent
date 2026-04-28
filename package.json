@@ -1,0 +1,21 @@
+{
+  "name": "seo-keyword-researcher-agent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:web\"",
+    "dev:server": "node server/index.js",
+    "dev:web": "cd web && npm run dev",
+    "install:all": "npm install && cd web && npm install",
+    "build": "cd web && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "uuid": "^10.0.0"
+  }
+}

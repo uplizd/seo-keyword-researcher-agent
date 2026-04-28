@@ -1,0 +1,2 @@
+# Large presentation stylesheets dominate GitHub's language bar; treat as vendor for Linguist.
+web/src/styles/*.css linguist-vendored
