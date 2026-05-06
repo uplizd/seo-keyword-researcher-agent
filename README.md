@@ -47,6 +47,17 @@ Browser  →  React UI  →  POST /api/run (proxy)  →  UPLIZD API  →  SEO Ke
 
 ---
 
+## Extension ideas
+
+Ideas that stay compatible with this playground (**React UI + Express proxy**; all tool wiring remains in UPLIZD):
+
+- **Intent ladder** — In the flow, encode `{rules}` so outputs separate informational vs. commercial vs. transactional clusters with suggested page types (pillar, supporting, landing).
+- **GSC → Sheets loop** — Define a naming convention in Google Sheets for monthly snapshots (query, clicks, position) so the agent can compare periods without changing the UI.
+- **Cannibalization checks** — Prompt rules that ask the model to flag URLs competing for the same primary query before finalizing a cluster map.
+- **SERP feature hints** — Use Tavily / Ahrefs outputs in the agent instructions to prefer keywords where you can win snippets or avoid overcrowded SERPs.
+
+---
+
 ## Stack
 
 | Layer | Tech |
